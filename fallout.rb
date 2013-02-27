@@ -6,7 +6,7 @@ require "ruby-web-search"
 require "fastimage_resize"
 
 
-set :max_photos_number, 3
+set :max_photos_number, 4
 
 before do
   @google_searcher = GoogleSearcher.new
