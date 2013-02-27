@@ -1,0 +1,27 @@
+<!-- Home -->
+<div data-role="page" id="page3">
+    <div data-theme="a" data-role="header">
+    	  <a href="/" class="ui-btn-left" data-icon="home" data-iconpos="notext" 
+           data-direction="/">Home</a> 
+        <h3>
+            Falloutlove
+        </h3>
+    </div>
+    <div data-role="content">
+        <div style="width: 288px; height: 288px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="/images/women-<%= @index.to_i %>.png" alt="image" style="position: absolute; top: 7%; left: 7%; margin-left: -16px; margin-top: -18px">
+        </div>
+        <% unless @max_photos_number %>
+					<a data-role="button" href="/results/<%= (@index.to_i + 1) %>">
+            Next
+          </a>
+				<% else %>
+				  <a data-role="button" href="/end">
+            End up
+          </a>
+				  <a data-role="button" href="/results/0">
+            Repeat
+          </a>
+				<% end %>
+    </div>
+</div>
