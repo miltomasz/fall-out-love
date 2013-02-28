@@ -3,7 +3,7 @@ GEM
   specs:
     RubyInline (3.12.0)
       ZenTest (~> 4.3)
-    ZenTest (4.9.0)
+    ZenTest (4.3.3)
     addressable (2.2.8)
     autotest-fsevent (0.2.8)
       sys-uname
@@ -128,7 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   RubyInline (~> 3.12.0)
-  ZenTest (~> 4.9.0)
+  ZenTest (~> 4.3.0)
   autotest-fsevent
   autotest-growl
   capybara (= 1.1.2)

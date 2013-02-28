@@ -11,7 +11,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'shotgun'
   gem "RubyInline", "~> 3.12.0"
-  gem "ZenTest", "~> 4.9.0"
+  gem "ZenTest", "~> 4.3.0"
   gem 'autotest-growl'
   gem 'autotest-fsevent'
 end
