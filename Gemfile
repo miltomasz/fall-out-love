@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-twitter-bootstrap'
 gem 'datamapper'
-gem 'dm-sqlite-adapter'
 gem 'edavis10-ruby-web-search', '~> 0.0.2'
 gem 'fastimage_resize'
 
@@ -14,6 +13,7 @@ group :development, :test do
   gem "ZenTest", "~> 4.3.0"
   gem 'autotest-growl'
   gem 'autotest-fsevent'
+  gem 'dm-sqlite-adapter'
 end
 
 group :test do
