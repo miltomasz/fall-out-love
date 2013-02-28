@@ -5,12 +5,12 @@ gem 'sinatra-twitter-bootstrap'
 gem 'datamapper'
 gem 'dm-sqlite-adapter'
 gem 'edavis10-ruby-web-search', '~> 0.0.2'
-gem "RubyInline", "~> 3.12.0"
 gem 'fastimage_resize'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'shotgun'
+  gem "RubyInline", "~> 3.12.0"
   gem "ZenTest", "~> 4.9.0"
   gem 'autotest-growl'
   gem 'autotest-fsevent'
