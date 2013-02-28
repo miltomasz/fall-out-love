@@ -1,3 +1,3 @@
-require 'sinatra'
+require './fallout'
 
 run Sinatra::Application
