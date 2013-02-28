@@ -4,7 +4,7 @@ gem 'sinatra'
 gem 'sinatra-twitter-bootstrap'
 gem 'datamapper'
 gem 'edavis10-ruby-web-search', '~> 0.0.2'
-gem 'fastimage_resize'
+
 
 group :development, :test do
   gem 'sqlite3'
@@ -14,6 +14,7 @@ group :development, :test do
   gem 'autotest-growl'
   gem 'autotest-fsevent'
   gem 'dm-sqlite-adapter'
+  gem 'fastimage_resize'
 end
 
 group :test do

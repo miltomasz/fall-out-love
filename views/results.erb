@@ -8,9 +8,10 @@
         </h3>
     </div>
     <div data-role="content">
-        <div style="width: 288px; height: 288px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
-            <img src="/images/women-<%= @index.to_i %>.png" alt="image" style="position: absolute; top: 7%; left: 7%; margin-left: -16px; margin-top: -18px">
+        <div style="width: 288px; height: 288px; position: relative; background-color: #fbfbfb; border: 0px solid #b8b8b8;">
+            <img src="/images/women-<%= @woman_id %>.png" alt="image" style="position: absolute; top: 7%; left: 7%; margin-left: -16px; margin-top: -18px; padding-bottom: 5px;">
         </div>
+        <h3><%= @desc %></h3>
         <% unless @max_photos_number %>
 					<a data-role="button" href="/results/<%= (@index.to_i + 1) %>">
             Next
